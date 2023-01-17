@@ -1,0 +1,31 @@
+img {
+	width: 100%;
+	height:auto;
+}
+video {
+  width: 100%;
+  height: auto;
+}
+.img_view{
+	display:grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-gap: 25px;
+	align-items:center;
+}
+figcaption {
+	font-family: sans-serif;
+	color:forestgreen;
+	line-height: 1.4;
+	font-size: 15px;
+
+}
+@media (max-width: 768px){
+	.img_view{
+		grid-template-columns: repeat(2,1fr);
+	}
+}
+@media (max-width: 500px){
+	.img_view{
+		grid-template-columns: repeat(1,1fr);
+	}
+}
