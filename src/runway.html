@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<meta charset="utf-8">
 <title>Runway</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="stylesheet" href="styles/css1.css"/>
+<link rel="stylesheet" href="styles/css3.css"/>
+<script src="styles/js1.js" defer></script>
+<script src="https://kit.fontawesome.com/e720cca481.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
 	<header>
-		<a href="TILF.html"><img src="tilf-logo.png" alt="logo of TILF"></a>
-		<nav>
+		<nav class="navbar">
+		<div class="tilf-logo">
+			<a href="TILF.html"><img src="tilf-logo.png" alt="logo of TILF" class="logo"></a>
+		</div>
+		<a href="#" id="toggle-button"class="toggle-button">
+			<span class="bar"></span>
+			<span class="bar"></span>
+			<span class="bar"></span>
+		</a>
+		<div class="navbar-links">	
 			<ul>
+
 				<li><a href="TILF.html">Home</a></li>
 				<li><a href="latest.html">Latest</a></li>
 				<li><a href="runway.html">Runways</a></li>
@@ -18,25 +32,31 @@
 				<li><a href="aboutus.html">About</a></li>
 				<li><a href="contactus.html">Contact</a></li>
 			</ul>
+		</div>
 		</nav>
-		<h2>TILF</h2>
+		
+		
+		
+		
 	</header>
 	<main>
-		<article>
-			<video controls>
+		<article >
+			<div class="container">
+			<div id="content1"><video controls>
 			<source src="Images/gigi.mp4">
 				your browser does not support the video tag.
-		 	</video>
-			<p>I dont think no one in this world think of runways and forget about this iconic walk from Gigi.And for this month's runways we choose our top 4 looks from the fall season collections</p>
-			<figure>
-				<img src="Images/geter.jpg" alt="latest look from genet collection">
-				<figcaption>Our favorite look from Fikir's latest collection</figcaption>
-				<img src="Images/am.jpg" alt="latest look from african mosique">
-				<figcaption>Our favorite look from African Mosique's latest collection</figcaption>
-				<img src="Images/bety.jpg" alt="latest look from bety">
-				<figcaption>Our favorite look from Bety's latest collection</figcaption>
+		 	</video></div>
+			<div id="content2"><p>I dont think no one in this world think of runways and forget about this iconic walk from Gigi.And for this month's runways we choose our top 4 looks from the fall season collections</p></div>
+			<figure class="img_view">
+				<div id="content3"><img src="Images/geter.jpg" alt="latest look from genet collection"></div>
+				<div id="content4"><figcaption>Our favorite look from Fikir's latest collection</figcaption></div>
+				<div id="content5"><img src="Images/am.jpg" alt="latest look from african mosique"></div>
+				<div id="content6"><figcaption>Our favorite look from African Mosique's latest collection</figcaption></div>
+				<div id="content7"><img src="Images/bety.jpg" alt="latest look from bety"></div>
+				
 				<img src="Images/mafi.jpg" alt="latest look from mafi mafi"><figcaption>Our favorite loof from Mafi Mafi's collection</figcaption>
 			</figure>
+		</div>
 		</article>
 		<article>
 			<p> And by the choice of our team this week's favorite music is Bloody Samaritan by Ayra Starr</p>
@@ -51,16 +71,21 @@
 
 <hr>
 	<footer>
+	<div class="social-icons">
 		<ul>
-			<li><a href="https://www.instagram.com/">Instagram</a></li>
-			<li><a href="https://youtube.com/">YouTube</a></li>
-			<li><a href="https://twitter.com/">Twitter</a></li>
-			<li><a href="TILF.html">back to home</a></li>
-
+			<li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+			<li><a href="https://youtube.com/"><i class="fa-brands fa-youtube"></i></a></li>
+			<li><a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a></li>
+			<li><a href="TILF.html"><i class="fa-solid fa-house"></i></a></li>
 
 		</ul>
-		<p>TILF Copyright &copy; 2022</p>
+	   
+		</div>
+		
 	</footer>
+	<hr>
+	<p><em>TILF Copyright &copy; 2022</em></p>
+
 
 
 

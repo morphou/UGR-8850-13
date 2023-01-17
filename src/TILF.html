@@ -1,16 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<meta charset="utf-8">
 <title>Home</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" type="image/x-icon" href="favicon.ico">
-
+<link rel="stylesheet" href="styles/css1.css"/>
+<link rel="stylesheet" href="styles/css2.css"/>
+<script src="styles/js1.js" defer></script>
+<script src="https://kit.fontawesome.com/e720cca481.js" crossorigin="anonymous"></script>
 </head>
 <body>
 	<header>
-		<a href="TILF.html"><img src="tilf-logo.png" alt="logo of TILF"></a>
-		<nav>
+		<nav class="navbar">
+		<div class="tilf-logo">
+			<a href="TILF.html"><img src="tilf-logo.png" alt="logo of TILF" class="logo"></a>
+		</div>
+		<a href="#" id="toggle-button"class="toggle-button">
+			<span class="bar"></span>
+			<span class="bar"></span>
+			<span class="bar"></span>
+		</a>
+		<div class="navbar-links">	
 			<ul>
+
 				<li><a href="TILF.html">Home</a></li>
 				<li><a href="latest.html">Latest</a></li>
 				<li><a href="runway.html">Runways</a></li>
@@ -18,36 +31,48 @@
 				<li><a href="aboutus.html">About</a></li>
 				<li><a href="contactus.html">Contact</a></li>
 			</ul>
+		</div>
 		</nav>
-		<h2>TILF</h2>
-		<img src="Images/pic1.jpg" alt="Young Ethiopian Girl">
-		<img src="Images/pic2.jpg" alt="Traditional Ethiopian Lady">
+		
+		
+		
 		
 	</header>
 	<main>
 		<section>
-			<img src="Images/gena.jpg" alt ="Ethiopian christmas card ">
-			<p> <p>Unlike the rest of the world, Ethiopian Christmas (Gena) is celebrated on January 7(tahesas 29).The date is not the only differnce between ethiopian christmas and the world's but also the way it is celebrated.Parents spend the night at church , Eldest daughter is responsible for the doro wot, Eldest son for preparing the wood for the doro,younger ones playing "ye gena chewata"...<a href="latest.html"> latest articles</a></p>
+			<div class="wrap">
+			
+			<div id="content1"><img src="Images/gena.jpg" alt ="Ethiopian christmas card "></div>
+			
+			<div id="content2"><p>Unlike the rest of the world, Ethiopian Christmas (Gena) is celebrated on January 7(tahesas 29).The date is not the only differnce between ethiopian christmas and the world's but also the way it is celebrated.Parents spend the night at church , Eldest daughter is responsible for the doro wot, Eldest son for preparing the wood for the doro,younger ones playing "ye gena chewata"...<a href="latest.html"> latest articles</a></p></div>
+		
+
+			<div id="content3"><img  src="Images/TILF.jpg" alt="Logo of TILF"></div>
+			
+			
+			<div id="content4"><p><em>TILF</em> is an Ethiopian monthly fashion magazine that covers many topics, including fashion,beauty,culture, art and across the world. It...<a href="aboutus.html">Find out more</a></p></div>
+		</div>
+			
+
 		</section>
-
-		<aside>
-			<img src="Images/TILF.jpg" alt="Logo of TILF">
-			<h3>About TILF</h3>
-			<p>TILF is an Ethiopian monthly fashion magazine that covers many topics, including fashion,beauty,culture, art and across the world. It...</p>
-			<p><a href="aboutus.html">Find out more</a></p>
-
-		</aside>
 	</main>
 	<hr>
 	<footer>
+		<div class="social-icons">
 		<ul>
-			<li><a href="https://www.instagram.com/">Instagram</a></li>
-			<li><a href="https://youtube.com/">YouTube</a></li>
-			<li><a href="https://twitter.com/">Twitter</a></li>
+			<li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+			<li><a href="https://youtube.com/"><i class="fa-brands fa-youtube"></i></a></li>
+			<li><a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a></li>
+			<li><a href="TILF.html"><i class="fa-solid fa-house"></i></a></li>
 
 		</ul>
-		<p>TILF Copyright &copy; 2022</p>
+	   
+		</div>
+		
 	</footer>
+	<hr>
+	<p1><em>TILF Copyright &copy; 2022</em></p1>
+
 
 
 

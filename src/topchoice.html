@@ -1,16 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<meta charset="utf-8">
 <title>Top Choice</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="stylesheet" href="styles/css1.css"/>
+<link rel="stylesheet" href="styles/cssN.css"/>
+<script src="styles/js1.js" defer></script>
+<script src="https://kit.fontawesome.com/e720cca481.js" crossorigin="anonymous"></script>
 
 </head>
 <body>
 	<header>
-		<a href="TILF.html"><img src="tilf-logo.png" alt="logo of TILF"></a>
-		<nav>
+		<nav class="navbar">
+		<div class="tilf-logo">
+			<a href="TILF.html"><img src="tilf-logo.png" alt="logo of TILF" class="logo"></a>
+		</div>
+		<a href="#" id="toggle-button"class="toggle-button">
+			<span class="bar"></span>
+			<span class="bar"></span>
+			<span class="bar"></span>
+		</a>
+		<div class="navbar-links">	
 			<ul>
+
 				<li><a href="TILF.html">Home</a></li>
 				<li><a href="latest.html">Latest</a></li>
 				<li><a href="runway.html">Runways</a></li>
@@ -18,8 +32,11 @@
 				<li><a href="aboutus.html">About</a></li>
 				<li><a href="contactus.html">Contact</a></li>
 			</ul>
+		</div>
 		</nav>
-		<h2>TILF</h2>
+		
+		
+		
 	</header>
 	<main>
 		<article>
@@ -32,16 +49,21 @@
 	</main>
 	<hr>
 	<footer>
+		<div class="social-icons">
 		<ul>
-			<li><a href="https://www.instagram.com/">Instagram</a></li>
-			<li><a href="https://youtube.com/">YouTube</a></li>
-			<li><a href="https://twitter.com/">Twitter</a></li>
-			<li><a href="TILF.html">back to home</a></li>
-
+			<li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a></li>
+			<li><a href="https://youtube.com/"><i class="fa-brands fa-youtube"></i></a></li>
+			<li><a href="https://twitter.com/"><i class="fa-brands fa-twitter"></i></a></li>
+			<li><a href="TILF.html"><i class="fa-solid fa-house"></i></a></li>
 
 		</ul>
-		<p>TILF Copyright &copy; 2022</p>
+	   
+		</div>
+		
 	</footer>
+	<hr>
+	<p><em>TILF Copyright &copy; 2022</em></p>
+
 
 
 
